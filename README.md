@@ -1,5 +1,6 @@
 # PictureCloud
  Projekt für Web Engineering
 
-_res/img_ ist für Seiten-Bilder, _pictures_ ist für User-Bilder
+`res/img` ist für Seiten-Bilder, `pictures` ist für User-Bilder
 
+Als nächstes: `index.php` - Grundgerüst und TODOs
