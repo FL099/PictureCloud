@@ -1,0 +1,61 @@
+
+h6{
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+
+
+
+
+/*Alles mit Chat und so*/
+#chatB{
+    position: absolute;
+    display: initial;
+    right: 30px;
+    bottom: 25px;
+}
+
+table tr td:first-child{
+    width: 55px;
+}
+
+table tr td img{
+    border: 2px solid green;
+    border-radius: 50%;
+    height: 40px;
+    align-self: center;
+}
+
+table tr td span{
+    font-size: 0.7em;
+}
+
+/**footer**/
+footer,.footer{
+    height: 50px;
+    z-index: 1000;
+}
+
+footer div{
+    z-index: 1001;
+}
+
+@media only screen and (orientation: landscape) {
+    .screen {
+        z-index: 100;
+        width: 25vw;
+        position: absolute;
+        right: 0;
+        height: calc(100vh - 58px);
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .screen {
+        z-index: 999;
+        width: 100vw;
+        height: calc(100vh - 107px);
+        margin: 0;
+    }
+}
