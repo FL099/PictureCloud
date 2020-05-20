@@ -1,5 +1,6 @@
 <?php
 
+
 ?>
 
 <!doctype html>
@@ -31,7 +32,7 @@
                 PictureCloud
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" onclick="addchat(true)"></span>
+                <span class="navbar-toggler-icon" onclick="rmall()"></span>
             </button>
         </nav>
         <div class="collapse" id="navbarToggleExternalContent">
@@ -44,7 +45,10 @@
 </header>
 <main id="main">
     <div id="chatB" class="btn btn-primary" onclick="addchat(false)">💬</div>
-    <section id="chatF" class="d-none"><?php include "inc/chat.inc.php"?></section>
+    <section id="chatF" class="screen d-none bg-blurr"><?php include "inc/chat.inc.php"?></section>
+    <section id="placeholder"> <!--TODO: entfernen!-->
+        <div id="pdiv1">---|-|---</div>
+    </section>
 </main>
 <footer class="bg-grey footer">
     <div class="container-fluid">

@@ -4,16 +4,49 @@ h6{
     margin-bottom: 0;
 }
 
+/*header*/
+.pos-f-t{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left:0;
+}
 
 
+/*main*/
+#main {
+
+}
+
+/*TODO: entfernen!*/
+#placeholder{
+    height: 110vh;
+    background-color: lightgray;
+    margin-top: 3.5rem; /*TODO: unbedingt übernehmen*/
+}
+
+#pdiv1{
+    height: 200px;
+    background-color: cadetblue;
+    border: 5px solid black;
+}
+
+/*Menü*/
+
+.collapse{
+    position: fixed;
+    top: 3.5rem;
+    right: 0;
+}
 
 /*Alles mit Chat und so*/
 #chatB{
-    position: absolute;
+    position: fixed;
     display: initial;
     right: 30px;
     bottom: 25px;
 }
+
 
 table tr td:first-child{
     width: 55px;
@@ -34,6 +67,7 @@ table tr td span{
 footer,.footer{
     height: 50px;
     z-index: 1000;
+    user-select: none;
 }
 
 footer div{
@@ -44,9 +78,10 @@ footer div{
     .screen {
         z-index: 100;
         width: 25vw;
-        position: absolute;
+        position: fixed;
         right: 0;
-        height: calc(100vh - 58px);
+        top: 3.5rem;
+        height: calc(100vh - 50px);
         margin: 0;
     }
 }
@@ -55,7 +90,7 @@ footer div{
     .screen {
         z-index: 999;
         width: 100vw;
-        height: calc(100vh - 107px);
+        height: calc(100vh - 99px);
         margin: 0;
     }
 }

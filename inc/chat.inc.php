@@ -1,5 +1,4 @@
 <?php?>
-<section class="screen">
     <button type= "button" class="btn btn-close" onclick="addchat(true)" aria-label="Close">&times;</button>
     <table class="table table-hover table-sm">
         <tr>
@@ -22,6 +21,5 @@
             <td>[img5]</td>
             <td><h6>Gruppe 2</h6><span>Unterüberschrift4</span></td>
         </tr>
-        <tr><td>5 Chats </td></tr> <!--TODO: dynamisch Anzahl der Chats ausgeben-->
+        <tr><td></td><td>5 Chats </td></tr> <!--TODO: dynamisch Anzahl der Chats ausgeben-->
     </table>
-</section>
